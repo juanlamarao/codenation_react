@@ -262,8 +262,10 @@ a {
 	outline: none;
 }
 
+.feed__post__status__write-comment input:invalid,
 .feed__post__status__write-comment input:focus {
 	outline: none;
+	box-shadow: none;
 }
 
 .feed__post__status__write-comment button {
