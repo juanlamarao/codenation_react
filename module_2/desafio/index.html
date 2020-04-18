@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Clone Instagram</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.fontawesome.com/4b2f158e58.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<header class="topbar">
+		<nav class="topbar__header container">
+			<a class="topbar__header__logo" href="#">
+				<img src="assets/instagram-logo.svg" />
+			</a>
+			<input class="topbar__header__search-bar" placeholder="Pesquisar" />
+			<div class="topbar__header__pages">
+				<a href="#">
+					<i data-feather="home"></i>
+				</a>
+				<a href="#">
+					<i data-feather="send"></i>
+				</a>
+				<a href="#">
+					<i data-feather="compass"></i>
+				</a>
+				<a href="#">
+					<i data-feather="heart"></i>
+				</a>
+				<a href="#">
+					<img src="./assets/profile/black-panther/black-panther-profile.jpg" alt="Perfil pantera negra">
+				</a>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<section class="stories">
+			<div class="stories__container">
+				<div class="stories__container__item">
+					<a href="#">
+						<span
+							class="stories__container__item__user-image stories__container__item__user-image--have-stories">
+							<img class="have_stories" src="./assets/profile/black-panther/black-panther-profile.jpg"
+								alt="Perfil pantera negra">
+						</span>
+						<p class="stories__container__item__user-name">wakanda4ever</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span
+							class="stories__container__item__user-image stories__container__item__user-image--have-stories-friends">
+							<img src="./assets/profile/bruce/bruce-profile.jpg" alt="Perfil Bruce">
+						</span>
+						<p class="stories__container__item__user-name">morcegao</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span>
+							<img src="./assets/profile/carol/carol-profile.jpg" alt="Perfil Carol">
+						</span>
+						<p class="stories__container__item__user-name">marvel_cap</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span>
+							<img src="./assets/profile/domino/domino-profile.jpg" alt="Perfil Domino">
+						</span>
+						<p class="stories__container__item__user-name">lucky_woman</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span>
+							<img src="./assets/profile/gamora/gamora-profile.jpg" alt="Perfil Gamora">
+						</span>
+						<p class="stories__container__item__user-name">she_hulk</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span>
+							<img src="./assets/profile/yoda/yoda-profile.jpg" alt="Perfil Yoda">
+						</span>
+						<p class="stories__container__item__user-name">one_wise</p>
+					</a>
+				</div>
+				<div class="stories__container__item">
+					<a href="#">
+						<span>
+							<img src="./assets/profile/saitama/soquin.jpg" alt="Perfil Yoda">
+						</span>
+						<p class="stories__container__item__user-name">soquin</p>
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="container">
+		<section class="feed">
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/yoda/yoda-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>one_wise</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/yoda/yoda-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div class="feed__post__actions--left">
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/gamora/gamora-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">she_hulk</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">one_wise</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">marvel_cap</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">morcegao</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/gamora/gamora-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>she_hulk</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/gamora/gamora-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div>
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/yoda/yoda-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">one_wise</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">she_hulk</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">marvel_cap</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">morcegao</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/black-panther/black-panther-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>wakanda4ever</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/black-panther/black-panther-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div class="feed__post__actions--left">
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/yoda/yoda-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">one_wise</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">wakanda4ever</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">marvel_cap</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">morcegao</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/carol/carol-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>marvel_cap</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/carol/carol-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div class="feed__post__actions--left">
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/yoda/yoda-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">one_wise</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">marvel_cap</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">wakanda4ever</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">morcegao</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/domino/domino-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>luck_woman</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/domino/domino-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div class="feed__post__actions--left">
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/yoda/yoda-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">one_wise</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">luck_woman</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">marvel_cap</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">morcegao</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+			<article class="feed__post">
+				<header class="feed__post__header">
+					<div class="feed__post__header__user">
+						<a href="#">
+							<img src="assets/profile/bruce/bruce-profile.jpg">
+						</a>
+						<a href="#">
+							<h3>morcegao</h3>
+						</a>
+					</div>
+					<a class="feed__post__header__action" href="#"><i data-feather="more-horizontal"></i></a>
+				</header>
+				<figure class="feed__post__image">
+					<img src="assets/profile/bruce/bruce-1.jpg">
+				</figure>
+				<div class="feed__post__container">
+					<div class="feed__post__actions">
+						<div class="feed__post__actions--left">
+							<a href="#"><i data-feather="heart"></i></a>
+							<a href="#"><i data-feather="message-circle"></i></a>
+							<a href="#"><i data-feather="send"></i></a>
+						</div>
+						<a href="#"><i data-feather="bookmark"></i></a>
+					</div>
+					<div class="feed__post__status">
+						<div class="feed__post__status__likes">
+							<a href="#">
+								<img src="assets/profile/yoda/yoda-profile.jpg">
+							</a>
+							<span>
+								curtido por <a href="#">one_wise</a> e outras <a href="#">7 pessoas</a>
+							</span>
+						</div>
+						<div class="feed__post__status__owner">
+							<span>
+								<a href="#">morcegao</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</span>
+						</div>
+						<div class="feed__post__status__comments">
+							<a href="#">
+								<p class="feed__post__status__comment__more">Ver todos os 5 comentários</p>
+							</a>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">marvel_cap</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+							<div class="feed__post__status__comments__comment">
+								<span>
+									<a href="#">Joker</a>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</span>
+								<a href="#"><i data-feather="heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<footer class="feed__post__status__footer">
+						<p>Há 2 horas</p>
+					</footer>
+				</div>
+				<div class="feed__post__status__write-comment">
+					<input type="text" placeholder="Adicione um comentário..." required>
+					<button>Publicar</button>
+				</div>
+			</article>
+		</section>
+	</div>
+	<footer class="container">
+		<div class="footer">
+			<a class="footer__link" href="#">Sobre</a>
+			<a class="footer__link" href="#">Ajuda</a>
+			<a class="footer__link" href="#">Impremsa</a>
+			<a class="footer__link" href="#">API</a>
+			<a class="footer__link" href="#">Carreiras</a>
+			<a class="footer__link" href="#">Privacidade</a>
+			<a class="footer__link" href="#">Termos</a>
+			<a class="footer__link" href="#">Localizações</a>
+			<a class="footer__link" href="#">Contas mais relevantes</a>
+			<a class="footer__link" href="#">Hashtags</a>
+			<a class="footer__link" href="#">Idioma</a>
+		</div>
+		<p class="footer__copyright">&copy; 2020 Clone Instagram by Juan Lamarão</p>
+	</footer>
+	<script>
+		feather.replace()
+	</script>
+</body>
+
+</html>
