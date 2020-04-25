@@ -238,7 +238,7 @@ a {
 	height: 14px;
 }
 
-.feed__post__status__footer {
+.feed__post__footer {
 	color: gray;
 	font-size: 0.8em;
 	font-weight: lighter;
@@ -247,7 +247,7 @@ a {
 	margin-bottom: 8px;
 }
 
-.feed__post__status__write-comment {
+.feed__post__write-comment {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -255,20 +255,20 @@ a {
 	border-top: 0.5px solid rgba(128, 128, 128, 0.575);
 }
 
-.feed__post__status__write-comment input {
+.feed__post__write-comment input {
 	width: 80%;
 	margin: 2%;
 	border: none;
 	outline: none;
 }
 
-.feed__post__status__write-comment input:invalid,
-.feed__post__status__write-comment input:focus {
+.feed__post__write-comment input:invalid,
+.feed__post__write-comment input:focus {
 	outline: none;
 	box-shadow: none;
 }
 
-.feed__post__status__write-comment button {
+.feed__post__write-comment button {
 	border: 0;
 	background-color: transparent;
 	font-weight: bold;
@@ -277,7 +277,7 @@ a {
 	transition: 0.2s;
 }
 
-.feed__post__status__write-comment input:valid + button {
+.feed__post__write-comment input:valid + button {
 	color: #4495F6;
 }
 
@@ -319,7 +319,7 @@ a {
 		border-radius: 0px;
 		margin-bottom: 24px;
 	}
-	.feed__post__status__write-comment {
+	.feed__post__write-comment {
 		display: none;
 	}
 
